@@ -1,0 +1,174 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.openclassrooms.go4lunch"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunnerArguments clearPackageData: 'true'
+        resValue "string", "google_maps_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+        buildConfigField("String", "google_maps_key", GOOGLE_MAPS_API_KEY)
+    }
+
+    android {
+        sourceSets {
+            String sharedTestDir = 'src/sharedTest/java'
+            androidTest {
+                java.srcDirs += sharedTestDir
+            }
+            test {
+                java.srcDirs += sharedTestDir
+            }
+        }
+    }
+
+    // Always show the result of every unit test, even if it passes.
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+        unitTests {
+            includeAndroidResources = true
+            returnDefaultValues = true
+
+            all {
+                testLogging {
+                    events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
+                }
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            multiDexKeepFile file('multidex-config.txt')
+        }
+        debug {
+            multiDexKeepFile file('multidex-config.txt')
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:multidex:$multi_dex_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "com.google.android.material:material:$material_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+    implementation "androidx.preference:preference:$preference_version"
+    implementation "com.android.support:support-compat:$support_compat_version"
+
+    // Testing dependencies
+    androidTestImplementation "androidx.test.ext:junit:$junit_version"
+    androidTestImplementation "androidx.test:runner:$runner_version"
+    androidTestImplementation "androidx.test:rules:$rules_version"
+    androidTestImplementation "com.google.truth:truth:$truthVersion"
+    androidTestImplementation "org.mockito:mockito-core:$mockito_version"
+    implementation "net.andreinc.mockneat:mockneat:$mockneat_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$espresso_version"
+    androidTestImplementation "com.squareup.retrofit2:retrofit-mock:$retrofit_mock_version"
+    androidTestImplementation "androidx.arch.core:core-testing:$arch_testing_version"
+    androidTestUtil "androidx.test:orchestrator:$orchestrator_version"
+    implementation "androidx.test.espresso:espresso-idling-resource:$espresso_version"
+    androidTestImplementation "androidx.test.uiautomator:uiautomator:$uiautomator_version"
+    androidTestImplementation "org.robolectric:annotations:$robolectric_version"
+    debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+
+    // AndroidX Test - JVM testing
+    testImplementation "androidx.test:rules:$androidx_test_rules_version"
+    testImplementation "androidx.test.ext:junit:$junit_version"
+    testImplementation "androidx.test:rules:$rules_version"
+    testImplementation "androidx.test:runner:$runner_version"
+    testImplementation "androidx.arch.core:core-testing:$arch_testing_version"
+    testImplementation "org.mockito:mockito-core:$mockito_version"
+    testImplementation "org.robolectric:robolectric:$robolectric_version"
+    testImplementation "com.google.truth:truth:$truthVersion"
+    testImplementation "com.squareup.retrofit2:retrofit-mock:$retrofit_mock_version"
+    testImplementation "androidx.test.uiautomator:uiautomator:$uiautomator_version"
+    implementation "androidx.test:core:$androidx_test_core_version"
+
+    /************************* Jetpack dependencies **********************/
+
+    // Architecture components
+
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_extension_version"
+
+    // Navigation dependencies
+    implementation "androidx.navigation:navigation-fragment:$navigation_version"
+    implementation "androidx.navigation:navigation-ui:$navigation_version"
+    /*******************************************************************/
+
+    // Butterknife dependencies
+    implementation "com.jakewharton:butterknife:$butterknife_version"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife_version"
+
+    // Timber dependencies - log library
+    implementation "com.jakewharton.timber:timber:$timber_version"
+
+    /************************* Firebase dependencies **********************/
+
+    // Firebase Authentication dependencies
+    implementation "com.google.firebase:firebase-auth:$firebase_auth_version"
+
+    // Firebase Firestore dependencies
+    implementation "com.google.firebase:firebase-firestore:$firebase_firestore_version"
+
+    // Google Sign In SDK (only required for Google Sign In)
+    implementation "com.google.android.gms:play-services-auth:$play_services_auth_version"
+
+    // Facebook Android SDK (only required for Facebook Login)
+    // Used in FacebookLoginActivity.
+    implementation "com.facebook.android:facebook-login:$facebook_version"
+    implementation "androidx.browser:browser:$browser_version"
+    implementation "com.google.androidbrowserhelper:androidbrowserhelper:$android_browser_helper_version"
+
+    // Twitter dependencies
+    implementation "com.twitter.sdk.android:twitter-core:$twitter_version"
+    implementation "com.twitter.sdk.android:tweet-ui:$twitter_version"
+    implementation "com.twitter.sdk.android:tweet-composer:$twitter_version"
+
+    /*******************************************************************/
+
+    /************************* Google Maps dependencies **********************/
+
+    implementation "com.google.android.gms:play-services-maps:$play_services_maps_version"
+    implementation "com.google.android.libraries.places:places:$places_version"
+    /*******************************************************************/
+
+    // RxJava dependencies
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+
+    // Retrofit dependencies
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+    // Room dependencies
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // Glide dependencies
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+    // Resolve conflict dependency
+    implementation "com.google.guava:guava:28.2-android"
+}

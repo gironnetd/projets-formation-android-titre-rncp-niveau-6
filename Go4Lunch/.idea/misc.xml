@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_map_black_24dp.xml" value="0.3687179487179487" />
+        <entry key="app/src/main/res/drawable/ic_marker_restaurant_not_selected.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_mic_grey_24dp.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/drawable/ic_settings_24dp.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/layout-v21/activity_main.xml" value="0.23596014492753623" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.2259963768115942" />
+        <entry key="app/src/main/res/layout/fragment_map_view.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/item_detail_workmate.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/item_list_view.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_list_workmate.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/item_search_map_view.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.2259963768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop/Go4Lunch Javadoc" />
+    <option name="OPTION_SCOPE" value="public" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

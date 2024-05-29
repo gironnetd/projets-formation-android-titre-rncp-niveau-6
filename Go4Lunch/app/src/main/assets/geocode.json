@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "66",
+          "short_name": "66",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Boulevard Saint-Antoine",
+          "short_name": "Boulevard Saint-Antoine",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Le Chesnay",
+          "short_name": "Le Chesnay",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Yvelines",
+          "short_name": "Yvelines",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Île-de-France",
+          "short_name": "IDF",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "France",
+          "short_name": "FR",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "78150",
+          "short_name": "78150",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "66 Boulevard Saint-Antoine, 78150 Le Chesnay, France",
+      "geometry": {
+        "location": {
+          "lat": 48.81982619999999,
+          "lng": 2.1169224
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 48.82117518029149,
+            "lng": 2.118271380291502
+          },
+          "southwest": {
+            "lat": 48.81847721970849,
+            "lng": 2.115573419708498
+          }
+        }
+      },
+      "place_id": "ChIJL7uL-5995kcRlELS-L0NScY",
+      "plus_code": {
+        "compound_code": "R498+WQ Le Chesnay, France",
+        "global_code": "8FW4R498+WQ"
+      },
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "status": "OK"
+}

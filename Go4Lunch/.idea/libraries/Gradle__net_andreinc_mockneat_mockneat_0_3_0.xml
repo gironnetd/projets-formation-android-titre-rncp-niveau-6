@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: net.andreinc.mockneat:mockneat:0.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.andreinc.mockneat/mockneat/0.3.0/3a3b403460418bf98c1c10eed3b670e7c3189353/mockneat-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.andreinc.mockneat/mockneat/0.3.0/6d599cdfb824a4367a2a2fffac3bcb71e47e0a41/mockneat-0.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.andreinc.mockneat/mockneat/0.3.0/9a16d040032b51774e89b12af09bec9f74a51439/mockneat-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

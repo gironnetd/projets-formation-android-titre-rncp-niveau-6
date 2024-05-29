@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/navigationColor" />
+    <item android:drawable="@drawable/ic_hot_clipart_hot_food"
+        android:gravity="bottom|center"
+        android:bottom="@dimen/navigation_bar_height"
+        android:height="128dp"
+        android:width="128dp"/>
+</layer-list>

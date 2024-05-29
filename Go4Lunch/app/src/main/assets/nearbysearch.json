@@ -1,0 +1,110 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.8227694,
+          "lng": 2.1271064
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8241050802915,
+            "lng": 2.128615630291502
+          },
+          "southwest": {
+            "lat": 48.8214071197085,
+            "lng": 2.125917669708498
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "17be016d441d494104e965350c93eb874658dac0",
+      "name": "Oh...Liban | Restaurant traditionnel libanais 78.",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111061273818018842695\">Oh...Liban | Restaurant traditionnel libanais 78.</a>"
+          ],
+          "photo_reference": "CmRaAAAAfF3IGP_0Oe7YkY6cHIKIw7tmjJYQAr-rgf7fR62XXSIEPisF_QFp4x9Skx0hRYo_XXAI66McpSaD3rCdnUN-Ooe2u-JOx8vZXCxeB1xis60kPFCuAieCIgJEQ-3sv4AnEhDSdU-R2oHMGfM2tk5kDH6UGhTd5Ms60fbYTvfDGXp8O-ZdmUXC0A",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJd75k9Qh95kcRNfywwPTpybI",
+      "plus_code": {
+        "compound_code": "R4FG+4R Le Chesnay, France",
+        "global_code": "8FW4R4FG+4R"
+      },
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "ChIJd75k9Qh95kcRNfywwPTpybI",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 366,
+      "vicinity": "79 Rue de Versailles, Le Chesnay"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.8229793,
+          "lng": 2.1273233
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8243117302915,
+            "lng": 2.128770930291502
+          },
+          "southwest": {
+            "lat": 48.8216137697085,
+            "lng": 2.126072969708498
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "6f4b07076d71f9c5d404902932a6d3d01282b809",
+      "name": "L'Aparthé",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2592,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105695641993480013428\">Jp Jp</a>"
+          ],
+          "photo_reference": "CmRaAAAAXrf4gM8aidJoDwoGI5rJGvoBf7hZ76em0NVZnRv9bnyCoCeYihjEgeueP9S30k_yGF8o_phbbo8vY4jbd4lYAfm9dHhUebhfrYqrAScmkreWwoYxNvyKm5IaJUF46PSlEhAyZuY9HMNbg5ey4jOSkclFGhQI95HbwvdYTzvpqdoKzf3tjO5hhQ",
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJGyCD9Ah95kcRzM4_Unb9JlU",
+      "plus_code": {
+        "compound_code": "R4FG+5W Le Chesnay, France",
+        "global_code": "8FW4R4FG+5W"
+      },
+      "price_level": 2,
+      "rating": 4,
+      "reference": "ChIJGyCD9Ah95kcRzM4_Unb9JlU",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 124,
+      "vicinity": "81 Rue de Versailles, Le Chesnay"
+    }
+  ],
+  "status": "OK"
+}

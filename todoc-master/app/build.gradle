@@ -1,0 +1,127 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    signingConfigs {
+        debug {
+            //storeFile file('/Users/damien/Documents/OpenClassrooms/Android/Dev_Android_2020/Délivrez_une_application_mobile_en_production/todoc-master/upload-keystore.jks')
+            storeFile file('../upload-keystore.jks')
+
+            storePassword '050580'
+            keyAlias = 'upload'
+            keyPassword '050580'
+        }
+    }
+    compileSdkVersion 28
+    testOptions.unitTests.includeAndroidResources = true
+    defaultConfig {
+        applicationId "com.cleanup.gironnetd.todoc"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    android {
+        sourceSets {
+            String sharedTestDir = 'src/sharedTest/java'
+            androidTest {
+                java.srcDirs += sharedTestDir
+            }
+            test {
+                java.srcDirs += sharedTestDir
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            testCoverageEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    lintOptions {
+        disable 'RestrictedApi'
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+            returnDefaultValues = true
+        }
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src/main/res', 'src/androidTest/res', 'src/androidTest/res/2'
+            }
+            resources {
+                srcDirs 'src/main/resources', 'src/test/resources/'
+            }
+        }
+    }
+
+    // Always show the result of every unit test, even if it passes.
+    testOptions.unitTests.all {
+        testLogging {
+            events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "com.google.android.material:material:$material_version"
+
+    // Room dependencies
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // optional - RxJava support for Room
+    implementation "androidx.room:room-rxjava2:$room_version"
+
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+    // RxJava dependencies
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+
+    androidTestImplementation "androidx.test.ext:junit:$junit_version"
+    androidTestImplementation "androidx.test:runner:$runner_version"
+    androidTestImplementation "androidx.test:rules:$rules_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+    implementation "androidx.test.espresso:espresso-idling-resource:$espresso_version"
+
+    androidTestImplementation "androidx.test.uiautomator:uiautomator:$uiautomator_version"
+
+    // AndroidX Test - JVM testing
+    testImplementation "androidx.test:rules:$androidx_test_rules_version"
+    testImplementation "androidx.test.ext:junit:$junit_version"
+    testImplementation "androidx.test:rules:$rules_version"
+    testImplementation "androidx.arch.core:core-testing:$arch_testing_version"
+    testImplementation "org.mockito:mockito-core:$mockito_version"
+    testImplementation "org.robolectric:robolectric:$robolectric_version"
+    implementation "androidx.test:core:$androidx_test_core_version"
+}
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="restaurant_detail_app_bar_height">278dp</dimen>
+
+    <dimen name="navigation_drawer_header_height">222dp</dimen>
+    <dimen name="navigation_drawer_header_padding">16dp</dimen>
+    <dimen name="navigation_drawer_image_width">100dp</dimen>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="search_view_card_margin_top">30dp</dimen>
+    <!-- Height of the bottom navigation / system bar. -->
+    <dimen name="navigation_bar_height">48dp</dimen>
+</resources>

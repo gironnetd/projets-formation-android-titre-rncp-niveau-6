@@ -1,0 +1,393 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "81",
+        "short_name": "81",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Rue de Versailles",
+        "short_name": "Rue de Versailles",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Le Chesnay",
+        "short_name": "Le Chesnay",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Yvelines",
+        "short_name": "Yvelines",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Île-de-France",
+        "short_name": "IDF",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "France",
+        "short_name": "FR",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "78150",
+        "short_name": "78150",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"street-address\">81 Rue de Versailles</span>, <span class=\"postal-code\">78150</span> <span class=\"locality\">Le Chesnay</span>, <span class=\"country-name\">France</span>",
+    "business_status": "OPERATIONAL",
+    "formatted_address": "81 Rue de Versailles, 78150 Le Chesnay, France",
+    "formatted_phone_number": "01 39 54 19 09",
+    "geometry": {
+      "location": {
+        "lat": 48.8229793,
+        "lng": 2.1273233
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.8243117302915,
+          "lng": 2.128770930291502
+        },
+        "southwest": {
+          "lat": 48.8216137697085,
+          "lng": 2.126072969708498
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "6f4b07076d71f9c5d404902932a6d3d01282b809",
+    "international_phone_number": "+33 1 39 54 19 09",
+    "name": "L'Aparthé",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1430"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "2230"
+          },
+          "open": {
+            "day": 0,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1430"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2230"
+          },
+          "open": {
+            "day": 1,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1430"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2230"
+          },
+          "open": {
+            "day": 2,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1430"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2230"
+          },
+          "open": {
+            "day": 3,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1430"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2230"
+          },
+          "open": {
+            "day": 4,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1430"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2230"
+          },
+          "open": {
+            "day": 5,
+            "time": "1900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1430"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2230"
+          },
+          "open": {
+            "day": 6,
+            "time": "1900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+        "Tuesday: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+        "Wednesday: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+        "Thursday: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+        "Friday: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+        "Saturday: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+        "Sunday: 12:00 – 2:30 PM, 7:00 – 10:30 PM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105695641993480013428\">Jp Jp</a>"
+        ],
+        "photo_reference": "CmRaAAAA8jOtTJsvK_Bx1iNbnkk7-QvMt8QRLULcNED0ikW67FKzOSV1TyMpkcaaWrGSwC2B9SONyiN0v8GCaunvxNoUfifbPLsa2UwyjKk6bm5glr4TRPNck6AUa5A_Tn0aqfD9EhDRkqszXSZo7BvCEYAMAjzWGhQkJWiE1v_uIw518mINdPo-LTLDog",
+        "width": 4608
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102032316054513785008\">Dmtr Séb</a>"
+        ],
+        "photo_reference": "CmRaAAAATTRnOp0wdnVRZ9dNWqnKujB4KRbS9t_DTnBJxdJUxYbmcdqBLPZbl1PEA1YSAdBtxBPl436vefglSOIXxu1wHI3ZhYznCfgjfT6Ok9M3YDyR5teRLRWa_T95H6PNZOemEhBMil0_iaKi3ycTbIqnuwd9GhQEnIn6wxsLT-Co0vI0Wl0TLEu0GA",
+        "width": 3120
+      },
+      {
+        "height": 2920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105695641993480013428\">Jp Jp</a>"
+        ],
+        "photo_reference": "CmRaAAAATE3E-Wt-HE5Zb_j2kRyvkiROID2xxBBi86JemBQ-NzKm37h-xst9637Doz6yOX4nyY0xCSzF99qdEJ6Ah9Yd5Jw9Xab4eVen1UklpLZY_0sCw_P076k3fw9mEoqYXfTGEhBwflbdPXm8_X4JHfiW7Jc0GhS1-eyAU_AyTrV-UOx8qKMfxBt-HQ",
+        "width": 5184
+      },
+      {
+        "height": 2336,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102070435491450552753\">Cliviliscious Theman</a>"
+        ],
+        "photo_reference": "CmRaAAAAurze86hMHco-UgIplkjCJt3r9Om-k0Wse7RF5xmQvm0236K43PVSxw6HQs3-LbPVSC94enWrdRR6H-sLyp6ja7PPevEJxNgvnRlb1JotBEZQ5gOCxkPb-NDroxR48iY3EhAqkAJGgEs2qNWdCRGY5P9xGhTfavrpEA152l17IeIdTnCvbhhsVA",
+        "width": 4160
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101567795902784881727\">Didier Tezza</a>"
+        ],
+        "photo_reference": "CmRaAAAA48tUUO7hcqHS9XbMIX_YYz2dcST-wbLuXVs9nV4h_93UaUsfkh9GeCjiIrybvVlujmLn2n2RvIc2MIkhV9-rjKv5-ubH27POZNGmCLoo-toVQHb9vRQ336U8L-avioHjEhDjvM9O0TPbVu-ZK9Kg22MbGhR_8mc-bmPW9_BdDJgIryC3B2s6dA",
+        "width": 4032
+      },
+      {
+        "height": 1632,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115218162022557640144\">La Dahlmann</a>"
+        ],
+        "photo_reference": "CmRaAAAAEqe-wwiIXAA7gQFA8N8a_96lnf9WebHpQoLVqolw-wP4cvmzySpemkpclIxaSrDdMTOh9AB52HhYX3Ku8qIvLURIKry7yJls7V48fdregwAvV6kAO5gr3eY-swStOVtgEhA_JIq9EB0HzOKnJKDj6Yv2GhSYDlAJ32xav8F65QPH3bzSXxs1XA",
+        "width": 3264
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108286543314459630665\">Christophe Riaud</a>"
+        ],
+        "photo_reference": "CmRaAAAARa4OeZ3KHQXtMPrMHNR7CAJdM8flfjj0IfPtmoYuefboAVZQe8fAQqcUINjok_c3tdjbAoNqI-rqV6OK0JsCz56vn6zhR4V2XY_inwnw-V_OCAf9LccsAZZWGMbTl1t8EhB0NfQuFpTKiXvXRUl6J1p2GhQDjtD_4fVErIyZw_Bm4f-ac5u0wA",
+        "width": 4032
+      },
+      {
+        "height": 1355,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102032316054513785008\">Dmtr Séb</a>"
+        ],
+        "photo_reference": "CmRaAAAAqikOQ5mGtM2CEO1s7G44Xks-dTdlxoklCa-yFTJnquUMEz3H5gt1975UNE9xx_zAjbzaapyAYDbsHNVc4IFZYaL0uYjYTdievxl9PS9QTIntIF4natEMZYxd7gEtZXkAEhBlq7BVv3yw_TYjSzpcRtFTGhSDzaNakmLEObfxeSWcTmHIQ59Ylw",
+        "width": 720
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100154414824116676095\">Lydie</a>"
+        ],
+        "photo_reference": "CmRaAAAAf7gP23qCwTPHwfSM3KjgFXaBB-EILoSo1ya4-M5b1IJZd28jwqOJ-x0ysQN_bCQBiFqD3HzGAi82dl-0Md6wtw51vEqBcDGII8iAShhrlMxPxveQuQyMldYReVgrZHQMEhBMrifwo3DBYDrDhGpiOF34GhTJ2ixebmVzODYZxnTvEiduEMu6iw",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100154414824116676095\">Lydie</a>"
+        ],
+        "photo_reference": "CmRaAAAAApgasNcUfl3JamXCH8bUaQsX29Cvb_LM564yLhfpjL1Jsx0RzxHNndX1ZZkIVQTpC4jZLegcnUF3jJQG_jYeaTCBZX_iEzazVOsWy1Hkqak9JuIAJWPReMk2ClnHvQ5zEhAQV1z7xBlrt6rYbSXb3XslGhRoV7SYqhOkMzPLMCCogdr6-qRYsQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJGyCD9Ah95kcRzM4_Unb9JlU",
+    "plus_code": {
+      "compound_code": "R4FG+5W Le Chesnay, France",
+      "global_code": "8FW4R4FG+5W"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJGyCD9Ah95kcRzM4_Unb9JlU",
+    "reviews": [
+      {
+        "author_name": "Tobias Jordan",
+        "author_url": "https://www.google.com/maps/contrib/108265377168956087545/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh4.ggpht.com/-hqgqYxvtVd0/AAAAAAAAAAI/AAAAAAAAAAA/d4Yl5pDP4I0/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+        "rating": 5,
+        "relative_time_description": "8 months ago",
+        "text": "Extremely delicious food, nice atmosphere, friendly staff.",
+        "time": 1573144889
+      },
+      {
+        "author_name": "fab dumesny",
+        "author_url": "https://www.google.com/maps/contrib/113632636028766125825/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh5.ggpht.com/-HheMUs3uW94/AAAAAAAAAAI/AAAAAAAAAAA/VJRKWCkdeS0/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+        "rating": 4,
+        "relative_time_description": "8 months ago",
+        "text": "Small cosy place...service is great and food is very good!\n\nMerci !",
+        "time": 1572254005
+      },
+      {
+        "author_name": "Lil Flo",
+        "author_url": "https://www.google.com/maps/contrib/101032860240338423237/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh6.ggpht.com/-EAlCP8WkweM/AAAAAAAAAAI/AAAAAAAAAAA/mg03xHLe9zU/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+        "rating": 3,
+        "relative_time_description": "11 months ago",
+        "text": "Small restaurant with terrasse. Nice in in August when the city is empty to find an open place. Good fresh food. I had the tartare de salumon and it was great.",
+        "time": 1565431414
+      },
+      {
+        "author_name": "Clara Hawkins",
+        "author_url": "https://www.google.com/maps/contrib/108211886369363943211/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh3.ggpht.com/-BFhphUlCLlQ/AAAAAAAAAAI/AAAAAAAAAAA/T3jTcaC6U5o/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+        "rating": 5,
+        "relative_time_description": "a year ago",
+        "text": "Delicious dessert! It was very pleasant to sit outside and enjoy our meal",
+        "time": 1561726476
+      },
+      {
+        "author_name": "Faero L.Z. Wu",
+        "author_url": "https://www.google.com/maps/contrib/114012584849586777915/reviews",
+        "language": "en",
+        "profile_photo_url": "https://lh5.ggpht.com/-KgQZK3FZ5U8/AAAAAAAAAAI/AAAAAAAAAAA/WBN5-YgUE-g/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+        "rating": 2,
+        "relative_time_description": "3 years ago",
+        "text": "Not very cheap for the average food - brasserie style",
+        "time": 1482874133
+      }
+    ],
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=6135870226966761164",
+    "user_ratings_total": 124,
+    "utc_offset": 120,
+    "vicinity": "81 Rue de Versailles, Le Chesnay",
+    "website": "http://www.laparthe.site/"
+  },
+  "status": "OK"
+}

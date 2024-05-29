@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Ma réu</string>
+    <string name="no_meetings_created">Aucune réunion\n n\'a encore été créées</string>
+    <string name="no_meetings_for_this_place">Aucune réunion\n n\'a été crée pour ce lieu</string>
+    <string name="meeting_title_text">Réunion %1$s - %2$dH00 - %3$s</string>
+    <string name="no_participants">Aucun collaborators</string>
+    <string name="meeting_without_title">Réunion sans intitulé</string>
+    <string name="dialog_text_input_edit_text_hint">Sujet de la réunion</string>
+    <string name="add_meeting_title">Ajouter une Réunion</string>
+    <string name="add">Ajouter</string>
+    <string name="label_place_name_text">Choisissez le lieu de réunion :</string>
+    <string name="label_meeting_time_text">Choisissez le créneau de la réunion :</string>
+    <string name="label_subject_meeting_text">Saisissez le sujet de la réunion :</string>
+    <string name="label_participants_meeting_text">Sélectionner les collaborators :</string>
+    <string name="spinner_default_text">Sélectionner un lieu de réunion</string>
+    <string name="no_place_name">Lieu de réunion sans nom</string>
+    <string name="meeting_time_string_format">de &lt;b>%1$s&lt;/b> à &lt;b>%2$s&lt;/b></string>
+    <string name="free_meeting_time_text">disponible</string>
+    <string name="reserved_meeting_time_text">réservé</string>
+    <string name="participant_anonymous_text">Participant anonyme</string>
+
+    <string name="meeting_subject">Sujet de la réunion :</string>
+    <string name="meeting_place">Lieu de la réunion :</string>
+    <string name="meeting_meeting_time">Créneau de la réunion :</string>
+    <string name="meeting_participants">Liste des collaborators :</string>
+
+    <string name="meeting_added">La réunion a été ajoutée</string>
+    <string name="no_subject_meeting_registered">Vous devez mentionner un sujet à la réunion</string>
+    <string name="no_place_meeting_selected">Vous devez choisir un lieu de réunion</string>
+    <string name="no_meeting_time_selected">Vous devez sélectionner un créneau horaire pour la réunion</string>
+    <string name="no_participants_selected">Vous devez sélectionner au moins un particpant pour la réunion</string>
+    <string name="filter_by_date">filtrer par date</string>
+    <string name="filter_by_place">filtrer par lieu</string>
+    <string name="label_meeting_date_text">Choisissez la date de la réunion : </string>
+    <string name="no_meetings_for_this_date">Aucune réunion\n n\'a été créée pour cette date</string>
+    <string name="validate_add_meeting">Valider</string>
+</resources>

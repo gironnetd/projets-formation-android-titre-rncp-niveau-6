@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id" translatable="false">213489196755088</string>
+    <string name="twitter_consumer_key" translatable="false">tBDZUB5KvW8mDOjPeAGXiqLC5</string>
+    <string name="twitter_consumer_secret" translatable="false">I8pfyxr2BLtKbUXwjQEpmFTYbuIZ63QoRZoToBnDQgbzlTZ7Qx</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Delivrez_une_application_mobile_en_production-todoc-master.iml" filepath="$PROJECT_DIR$/Delivrez_une_application_mobile_en_production-todoc-master.iml" group="todoc-master" />
+      <module fileurl="file://$PROJECT_DIR$/Dev_Android_2020-Delivrez_une_application_mobile_en_production-todoc-master.iml" filepath="$PROJECT_DIR$/Dev_Android_2020-Delivrez_une_application_mobile_en_production-todoc-master.iml" group="todoc-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="todoc-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/todoc-master.iml" filepath="$PROJECT_DIR$/todoc-master.iml" group="todoc-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/todoc-master-app.iml" filepath="$PROJECT_DIR$/app/todoc-master-app.iml" group="todoc-master/app" />
+    </modules>
+  </component>
+</project>
